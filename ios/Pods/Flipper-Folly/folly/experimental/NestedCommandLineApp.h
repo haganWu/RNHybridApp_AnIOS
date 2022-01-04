@@ -43,7 +43,7 @@ class FOLLY_EXPORT ProgramExit : public std::runtime_error {
 };
 
 /**
- * App that uses a nested command line, of the form:
+ * App1 that uses a nested command line, of the form:
  *
  * program [--global_options...] command [--command_options...] command_args...
  *

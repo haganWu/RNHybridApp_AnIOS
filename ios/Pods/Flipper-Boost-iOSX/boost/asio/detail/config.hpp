@@ -1221,7 +1221,7 @@
 # endif // !defined(BOOST_ASIO_DISABLE_SOURCE_LOCATION)
 #endif // !defined(BOOST_ASIO_HAS_SOURCE_LOCATION)
 
-// Windows App target. Windows but with a limited API.
+// Windows App1 target. Windows but with a limited API.
 #if !defined(BOOST_ASIO_WINDOWS_APP)
 # if defined(_WIN32_WINNT) && (_WIN32_WINNT >= 0x0603)
 #  include <winapifamily.h>
@@ -1234,7 +1234,7 @@
 # endif // defined(_WIN32_WINNT) && (_WIN32_WINNT >= 0x0603)
 #endif // !defined(BOOST_ASIO_WINDOWS_APP)
 
-// Legacy WinRT target. Windows App is preferred.
+// Legacy WinRT target. Windows App1 is preferred.
 #if !defined(BOOST_ASIO_WINDOWS_RUNTIME)
 # if !defined(BOOST_ASIO_WINDOWS_APP)
 #  if defined(__cplusplus_winrt)
@@ -1248,7 +1248,7 @@
 # endif // !defined(BOOST_ASIO_WINDOWS_APP)
 #endif // !defined(BOOST_ASIO_WINDOWS_RUNTIME)
 
-// Windows target. Excludes WinRT but includes Windows App targets.
+// Windows target. Excludes WinRT but includes Windows App1 targets.
 #if !defined(BOOST_ASIO_WINDOWS)
 # if !defined(BOOST_ASIO_WINDOWS_RUNTIME)
 #  if defined(BOOST_ASIO_HAS_BOOST_CONFIG) && defined(BOOST_WINDOWS)

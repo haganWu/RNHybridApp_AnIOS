@@ -34,7 +34,7 @@
   - [Desktop](#desktop)
     - [Running from source](#running-from-source)
     - [Building standalone application](#building-standalone-application)
-- [iOS SDK + Sample App](#ios-sdk--sample-app)
+- [iOS SDK + Sample App1](#ios-sdk--sample-app)
 - [Android SDK + Sample app](#android-sdk--sample-app)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
@@ -102,7 +102,7 @@ yarn build --mac --version $buildNumber
 
 You can find the resulting artifact in the `dist/` folder.
 
-## iOS SDK + Sample App
+## iOS SDK + Sample App1
 
 ```bash
 cd iOS/Sample

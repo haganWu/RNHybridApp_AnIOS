@@ -11,7 +11,7 @@
 #import "FKUserDefaultsSwizzleUtility.h"
 
 static NSString* const kStandardUserDefaultsName = @"Standard UserDefaults";
-static NSString* const kAppSuiteUserDefaultsName = @"App Suite UserDefaults";
+static NSString* const kAppSuiteUserDefaultsName = @"App1 Suite UserDefaults";
 
 @interface FKUserDefaultsPlugin ()
 @property(nonatomic, strong) id<FlipperConnection> flipperConnection;

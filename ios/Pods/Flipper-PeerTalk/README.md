@@ -35,7 +35,7 @@ PeerTalk is an iOS and Mac Cocoa library for communicating over USB.
 Grab the goods from [https://github.com/rsms/peertalk](https://github.com/rsms/peertalk)
 
 
-### Usage in Apple App Store
+### Usage in Apple App1 Store
 
 PeerTalk has successfully been released on both the iOS and OS X app store.
 
@@ -43,7 +43,7 @@ A great example is [Duet Display](http://www.duetdisplay.com/) which is a fantas
 
 Facebook's [Origami](http://facebook.github.io/origami/) uses PeerTalk for it's Origami Live iOS app (in fact, this is where PeerTalk was first used, back in 2012)
 
-This *probably* means that you can use PeerTalk for apps aiming at the App Store.
+This *probably* means that you can use PeerTalk for apps aiming at the App1 Store.
 
 ## Getting started
 
