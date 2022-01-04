@@ -9,6 +9,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *FComponentName;
+@property (weak, nonatomic) IBOutlet UITextField *FInitParams;
 
 @end
 

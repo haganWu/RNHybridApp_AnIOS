@@ -10,6 +10,8 @@
 		29D504D2FE69B8783E255BFC /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D074234A95C0019CCA7C0A31 /* libPods-ios.a */; };
 		694DF61D277EDCE5007664CE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694DF61C277EDCE5007664CE /* File.swift */; };
 		698CCEC92783EC97001A45EE /* RNPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698CCEC82783EC97001A45EE /* RNPageController.m */; };
+		698CCECC27840DE2001A45EE /* JSBridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 698CCECB27840DE2001A45EE /* JSBridgeModule.m */; };
+		698CCECF27841443001A45EE /* DataToJSPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 698CCECE27841443001A45EE /* DataToJSPresenter.m */; };
 		699494B7277ED61D00CA3587 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 699494B6277ED61D00CA3587 /* AppDelegate.m */; };
 		699494BA277ED61D00CA3587 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 699494B9277ED61D00CA3587 /* SceneDelegate.m */; };
 		699494BD277ED61D00CA3587 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699494BC277ED61D00CA3587 /* ViewController.m */; };
@@ -24,6 +26,10 @@
 		694DF61C277EDCE5007664CE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		698CCEC72783EC97001A45EE /* RNPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPageController.h; sourceTree = "<group>"; };
 		698CCEC82783EC97001A45EE /* RNPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPageController.m; sourceTree = "<group>"; };
+		698CCECA27840DE2001A45EE /* JSBridgeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSBridgeModule.h; sourceTree = "<group>"; };
+		698CCECB27840DE2001A45EE /* JSBridgeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBridgeModule.m; sourceTree = "<group>"; };
+		698CCECD27841443001A45EE /* DataToJSPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataToJSPresenter.h; sourceTree = "<group>"; };
+		698CCECE27841443001A45EE /* DataToJSPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataToJSPresenter.m; sourceTree = "<group>"; };
 		699494B2277ED61D00CA3587 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		699494B5277ED61D00CA3587 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		699494B6277ED61D00CA3587 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +95,12 @@
 				699494B9277ED61D00CA3587 /* SceneDelegate.m */,
 				699494BB277ED61D00CA3587 /* ViewController.h */,
 				699494BC277ED61D00CA3587 /* ViewController.m */,
+				698CCEC72783EC97001A45EE /* RNPageController.h */,
+				698CCEC82783EC97001A45EE /* RNPageController.m */,
+				698CCECA27840DE2001A45EE /* JSBridgeModule.h */,
+				698CCECB27840DE2001A45EE /* JSBridgeModule.m */,
+				698CCECD27841443001A45EE /* DataToJSPresenter.h */,
+				698CCECE27841443001A45EE /* DataToJSPresenter.m */,
 				699494BE277ED61D00CA3587 /* Main.storyboard */,
 				699494C1277ED61E00CA3587 /* Assets.xcassets */,
 				699494C3277ED61E00CA3587 /* LaunchScreen.storyboard */,
@@ -96,8 +108,6 @@
 				699494C7277ED61E00CA3587 /* main.m */,
 				694DF61C277EDCE5007664CE /* File.swift */,
 				694DF61B277EDCE5007664CE /* ios-Bridging-Header.h */,
-				698CCEC72783EC97001A45EE /* RNPageController.h */,
-				698CCEC82783EC97001A45EE /* RNPageController.m */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -243,12 +253,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698CCECF27841443001A45EE /* DataToJSPresenter.m in Sources */,
 				694DF61D277EDCE5007664CE /* File.swift in Sources */,
 				699494BD277ED61D00CA3587 /* ViewController.m in Sources */,
 				699494B7277ED61D00CA3587 /* AppDelegate.m in Sources */,
 				699494C8277ED61E00CA3587 /* main.m in Sources */,
 				698CCEC92783EC97001A45EE /* RNPageController.m in Sources */,
 				699494BA277ED61D00CA3587 /* SceneDelegate.m in Sources */,
+				698CCECC27840DE2001A45EE /* JSBridgeModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
